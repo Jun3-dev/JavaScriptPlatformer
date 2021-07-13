@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  margin: 10;
+  padding: 10;
+  font-family: arial;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+canvas {
+  flex-shrink: 0;
+  background-color: #000;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+  align-items: center;
+}
+
